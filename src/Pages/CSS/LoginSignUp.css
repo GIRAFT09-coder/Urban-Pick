@@ -1,0 +1,98 @@
+/* LoginSignup.css */
+
+.loginsignup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #feefef, #feefef);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.loginsignup-container {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.loginsignup-container h1 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #333;
+}
+
+.loginsignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.loginsignup-fields input {
+  padding: 14px 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.loginsignup-fields input:focus {
+  border-color: #ef2d10;
+  box-shadow: 0 0 0 3px rgba(216, 90, 90, 0.2);
+}
+
+.loginsignup button {
+  width: 100%;
+  padding: 14px;
+  background-color: #f81811;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginsignup button:hover {
+  background-color: #0b0101;
+  border: none solid #f81811;
+  color: #f81811;
+}
+
+.loginsignup-login {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  text-align: center;
+  color: #555;
+}
+
+.loginsignup-login span {
+  color: #f90e06;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.loginsignup-login span:hover {
+  color: #0f0300;
+}
+
+.loginsignup-agree {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.4;
+}
